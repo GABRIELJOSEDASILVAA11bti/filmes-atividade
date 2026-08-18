@@ -1,0 +1,17 @@
+POST http://localhost:3000/adicionar-filme
+Content-Type: application/json
+
+{
+    "titulo": "Interestelar  ",
+    "genero": " ficção cinetifica"
+}
+
+###
+DELETE http://localhost:3000/apagar-filme/1
+
+
+
+
+
+
+
