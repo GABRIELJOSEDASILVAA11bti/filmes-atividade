@@ -30,6 +30,7 @@ app.delete("/apagar-filme/:id", (req, res)=>{
         }
 
         res.json("Filme deletado")
+        j
     })
 
 })
@@ -43,4 +44,4 @@ const sql = mysql2.createPool({
 
 app.listen(3000, ()=>{
     console.log("Servidor ligado")
-})
+})   
